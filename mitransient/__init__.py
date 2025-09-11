@@ -30,6 +30,7 @@ from .render import *
 from .films import *
 from .sensors import *
 from .emitters import *
+from .bsdfs import *
 
 from .utils import speed_of_light, cornell_box
 from . import nlos
@@ -37,3 +38,4 @@ if mi.is_polarized:
     from . import polarized_visualization as vis
 else:
     from . import unpolarized_visualization as vis
+    
